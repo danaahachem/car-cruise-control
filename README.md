@@ -51,13 +51,18 @@ You'll see:
 ## 🔧 Customize
 
 You can tweak the system in `main.m` and `slope_profile.m`.
-
-**PID Gains:**
-
-```matlab
-Kp = 1000;
-Ki = 30;
-Kd = 50;
-
-
 The slope `θ(t)` changes over time to simulate uphill and downhill roads. A disturbance is introduced mid-simulation to test robustness.
+Target speed = 20 m/s
+Kp = 1000
+Ki = 30
+Kd = 50
+---
+
+## 🤖 Built With
+MATLAB R2025a
+
+Pure code (no Simulink used)
+
+PID control logic
+
+Basic physics modeling
