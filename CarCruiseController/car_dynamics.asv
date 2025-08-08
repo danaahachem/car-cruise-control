@@ -1,0 +1,3 @@
+function dvdt = car_dynamics(t, v, m, b, g, theta, F_engine)
+    dvdt = (1/m) * (F_engine - b*v - m*g*sin(theta));
+end
